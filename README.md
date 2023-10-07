@@ -24,7 +24,11 @@ Find the pairwise correlation of all columns in the dataframe.corr()
 Save the final data set into the file.
 
 ## PROGRAM:
-## SuperStore.csv file:
+```
+Developed by:VASUNDRA SRI R
+Register no:212222230168
+```
+## SuperStore.csv:
 ```
 import pandas as pd
 import seaborn as sns
@@ -59,7 +63,7 @@ sns.displot(df, x="Region", hue="Category")
 df.corr()
 sns.heatmap(df.corr(),annot=True)
 ```
-## diabetes.csv file:
+## Diabetes.csv:
 ```
 import pandas as pd
 import seaborn as sns
